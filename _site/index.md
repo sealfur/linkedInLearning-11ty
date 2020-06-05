@@ -1,4 +1,4 @@
-# JAMStack
+# JAMStack LAMB
 
 The **JAMStack** is part of a family of techniques for creating sites called `serverless`, but those techniques can be a bit confusing.
 
