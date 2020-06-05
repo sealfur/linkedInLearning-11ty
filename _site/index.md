@@ -1,6 +1,7 @@
 ---
-title: Jamstack trial
+title: Jamstack trial welcome
 date: Created
+layout: page
 tags:
     - home
     - welcome
@@ -13,14 +14,11 @@ tags:
 **date:** {{page.date.toUTCString()}}
 
 **by:** {{ pkg.author }}
-
 <ul>
-	{% for item in tags %}
+{% for item in tags %} 
 <li> {{ item }} </li>
-	{% endfor %}
+{% endfor %}
 </ul>
-
-What is going wrong?
 
 boom
 
