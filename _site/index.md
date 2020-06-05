@@ -1,4 +1,28 @@
-# JAMStack LAMB
+---
+title: Jamstack trial
+date: Created
+tags:
+    - home
+    - welcome
+    - info
+
+---
+
+# {{ title }}
+
+**date:** {{page.date.toUTCString()}}
+
+**by:** {{ pkg.author }}
+
+<ul>
+	{% for item in tags %}
+<li> {{ item }} </li>
+	{% endfor %}
+</ul>
+
+What is going wrong?
+
+boom
 
 The **JAMStack** is part of a family of techniques for creating sites called `serverless`, but those techniques can be a bit confusing.
 
