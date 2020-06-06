@@ -9,5 +9,9 @@
     "type": "git",
     "url": "git+https://github.com/sealfur/linkedInLearning-11ty.git"
   },
-  "author": "sealfur"
+  "author": "sealfur",
+  "devDependencies": {
+    "js-yaml": "^3.14.0",
+    "node-fetch": "^2.6.0"
+  }
 }
